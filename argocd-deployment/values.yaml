@@ -189,7 +189,7 @@ global:
           port: 3306
       app:
         image: dview/artemis
-        tag: v3.0.0
+        tag: v3.0.1
         port: 8080
         resources: {}
       sidecars: {}
@@ -230,7 +230,7 @@ global:
         enabled: false
       app:
         image: dview/cosmos
-        tag: v3.0.0
+        tag: v3.0.1
         port: 8085
         resources: {}
       sidecars: {}
